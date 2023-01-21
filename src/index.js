@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const userRouter = require("./routes/userRoutes");
 const sudarshan = require('./db');
+const cors=require('cors');
 app.use(express.json());
 app.use(cors());
 const PORT = 8000;
