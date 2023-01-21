@@ -12,7 +12,16 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
+    "mongoose": "^6.8.4",
     "nodemon": "^2.0.20"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudarshan441/mock12.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sudarshan441/mock12/issues"
+  },
+  "homepage": "https://github.com/sudarshan441/mock12#readme",
   "description": ""
 }
