@@ -3,6 +3,7 @@ const app = express();
 const userRouter = require("./routes/userRoutes");
 const sudarshan = require('./db');
 app.use(express.json());
+app.use(cors());
 const PORT = 8000;
 app.use("/user",userRouter);
 
